@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "670847328888",
+    "firebase_url": "https://gurukrupa-472c8.firebaseio.com",
+    "project_id": "gurukrupa-472c8",
+    "storage_bucket": "gurukrupa-472c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670847328888:android:78bc92077dbc0182a6838d",
+        "android_client_info": {
+          "package_name": "com.example.gurukrupa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670847328888-38b28tj6iu7lbvf5871u0v6t3desqfai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyCQAamFDST4BoESzDgPsVX6MZtpV1_lU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670847328888-38b28tj6iu7lbvf5871u0v6t3desqfai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
