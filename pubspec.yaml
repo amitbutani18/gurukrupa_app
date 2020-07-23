@@ -24,8 +24,12 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_auth: ^0.16.1
-
-
+  http: ^0.12.2
+  firebase_database: ^3.1.6
+  url_launcher: ^5.5.0
+  webview_flutter: ^0.3.16
+  provider: ^4.3.1
+  flutter_map: ^0.10.1
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
@@ -49,7 +53,14 @@ flutter:
   assets:
     - assets/images/background.png
     - assets/images/welLogo.png
-  #   - images/a_dot_ham.jpeg
+    - assets/images/youtube.png
+    - assets/images/aboutUs.png
+    - assets/images/facebook.png
+    - assets/images/instagram.png
+    - assets/images/twitter.png
+    - assets/images/profile.jpg
+    - assets/images/product.jpg
+      #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -67,6 +78,9 @@ flutter:
       fonts:
         - asset: assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf
         - asset: assets/fonts/JosefinSans-VariableFont_wght.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
