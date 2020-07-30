@@ -1,8 +1,16 @@
-# gurukrupa
+# Gurukrupa
 
-A new Flutter project.
+A New Flutter project.
 
-## Getting Started
+# Screenshot 
+
+  <image src="Screenshot/auth.jpg" width=300 height=600>  <image src="Screenshot/home.jpg" width=300 height=600>
+  <image src="Screenshot/home2.jpg" width=300 height=600>  <image src="Screenshot/menu.jpg" width=300 height=600>
+  <image src="Screenshot/map.jpg" width=300 height=600>  <image src="Screenshot/personal.jpg" width=300 height=600>
+  <image src="Screenshot/products.jpg" width=300 height=600> <image src="Screenshot/view.jpg" width=300 height=600>
+  <image src="Screenshot/add.jpg" width=300 height=600> <image src="Screenshot/about.jpg" width=300 height=600>
+
+## Thank You
 
 This project is a starting point for a Flutter application.
 
