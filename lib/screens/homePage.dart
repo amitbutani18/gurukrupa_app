@@ -90,7 +90,9 @@ class _HomePageState extends State<HomePage> {
                               color: Colors.white,
                               letterSpacing: 2),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).pushNamed("/product");
+                        },
                       ),
                     ],
                   ),

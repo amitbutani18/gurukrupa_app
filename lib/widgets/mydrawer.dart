@@ -283,7 +283,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                           leading: Container(
                                               // padding: EdgeInsets.only(left: 40),
                                               child: Icon(
-                                            Icons.help,
+                                            Icons.add_box,
                                             size: 30,
                                             color:
                                                 Theme.of(context).primaryColor,
@@ -292,7 +292,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                             padding: const EdgeInsets.only(
                                                 left: 0, top: 3),
                                             child: Text(
-                                              'Help',
+                                              'Add Product',
                                               style: TextStyle(
                                                   fontSize: 20,
                                                   color: Colors.green[50],
@@ -304,7 +304,56 @@ class _MyDrawerState extends State<MyDrawer> {
                                           onTap: () {
                                             Navigator.of(context).pop();
                                             Navigator.of(context)
-                                                .pushNamed('/help');
+                                                .pushNamed('/additem');
+                                          },
+                                        ),
+                                      ),
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.only(
+                                          bottom: 5, left: 50, right: 50),
+                                      child: Card(
+                                        elevation: 0,
+                                        color: Color.fromRGBO(16, 16, 16, 1),
+                                        shape: RoundedRectangleBorder(
+                                          side: BorderSide(
+                                            color:
+                                                Color.fromRGBO(16, 16, 16, 1),
+                                          ),
+                                          borderRadius:
+                                              BorderRadius.circular(15.0),
+                                        ),
+                                        child: ListTile(
+                                          leading: Container(
+                                              // padding: EdgeInsets.only(left: 40),
+                                              child: Icon(
+                                            Icons.bug_report,
+                                            size: 30,
+                                            color:
+                                                Theme.of(context).primaryColor,
+                                          )),
+                                          title: Padding(
+                                            padding: const EdgeInsets.only(
+                                                left: 0, top: 3),
+                                            child: Text(
+                                              'Bug Report',
+                                              style: TextStyle(
+                                                  fontSize: 20,
+                                                  color: Colors.green[50],
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                          ),
+                                          // trailing: Icon(Icons.arrow_forward,
+                                          //     color: Colors.green),
+                                          onTap: () async {
+                                            Navigator.of(context).pop();
+                                            const url =
+                                                'mailto:gurukrupa.help@gmail.com?subject=Bug%20Report%20Gurukrupa&body=Write%20Something';
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'could not launch $url';
+                                            }
                                           },
                                         ),
                                       ),
@@ -380,7 +429,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                               'assets/images/facebook.png'),
                                           onPressed: () async {
                                             const url =
-                                                'https://www.facebook.com/vivek.sorathiya.39';
+                                                'https://www.facebook.com/amit.butani.5/';
                                             if (await canLaunch(url)) {
                                               await launch(url);
                                             } else {
@@ -395,7 +444,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                           ),
                                           onPressed: () async {
                                             const url =
-                                                'https://www.instagram.com/__vk_sorathiya__/';
+                                                'https://www.instagram.com/amitbutani18/';
                                             if (await canLaunch(url)) {
                                               await launch(url);
                                             } else {
@@ -410,7 +459,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                           ),
                                           onPressed: () async {
                                             const url =
-                                                'https://twitter.com/viveksorathiya3';
+                                                'https://twitter.com/Amitbutani18';
                                             if (await canLaunch(url)) {
                                               await launch(url);
                                             } else {
@@ -420,8 +469,26 @@ class _MyDrawerState extends State<MyDrawer> {
                                         )
                                       ],
                                     ),
+                                    // Padding(
+                                    //   padding: const EdgeInsets.only(top: 0),
+                                    //   child: Row(
+                                    //     crossAxisAlignment:
+                                    //         CrossAxisAlignment.end,
+                                    //     mainAxisAlignment:
+                                    //         MainAxisAlignment.center,
+                                    //     children: <Widget>[
+                                    //       Text(
+                                    //         "From",
+                                    //         style: TextStyle(
+                                    //             color: Colors.white,
+                                    //             fontSize: 13),
+                                    //         textAlign: TextAlign.center,
+                                    //       ),
+                                    //     ],
+                                    //   ),
+                                    // ),
                                     Padding(
-                                      padding: const EdgeInsets.only(top: 50),
+                                      padding: const EdgeInsets.only(top: 18),
                                       child: Row(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.end,
@@ -429,27 +496,9 @@ class _MyDrawerState extends State<MyDrawer> {
                                             MainAxisAlignment.center,
                                         children: <Widget>[
                                           Text(
-                                            "From",
+                                            "From Amitbutani18",
                                             style: TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 13),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(top: 5),
-                                      child: Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.end,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: <Widget>[
-                                          Text(
-                                            "Amitbutani18",
-                                            style: TextStyle(
-                                                color: Colors.white,
+                                                color: Colors.white54,
                                                 fontSize: 13,
                                                 letterSpacing: 2),
                                             textAlign: TextAlign.center,
@@ -458,7 +507,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                       ),
                                     ),
                                     Padding(
-                                      padding: const EdgeInsets.only(top: 18),
+                                      padding: const EdgeInsets.only(top: 2),
                                       child: Row(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.center,
